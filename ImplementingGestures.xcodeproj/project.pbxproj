@@ -13,6 +13,7 @@
 		1D771EFB23819DD600403DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D771EFA23819DD600403DB9 /* Assets.xcassets */; };
 		1D771EFE23819DD600403DB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D771EFD23819DD600403DB9 /* Preview Assets.xcassets */; };
 		1D771F0123819DD600403DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D771EFF23819DD600403DB9 /* LaunchScreen.storyboard */; };
+		1D771F0A23819E2600403DB9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D771F0923819E2600403DB9 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1D771EFD23819DD600403DB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D771F0023819DD600403DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D771F0223819DD600403DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D771F0923819E2600403DB9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		1D771EF323819DD100403DB9 /* ImplementingGestures */ = {
 			isa = PBXGroup;
 			children = (
+				1D771F0823819DF200403DB9 /* Views */,
 				1D771EF423819DD100403DB9 /* AppDelegate.swift */,
 				1D771EF623819DD100403DB9 /* SceneDelegate.swift */,
 				1D771EF823819DD100403DB9 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				1D771EFD23819DD600403DB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D771F0823819DF200403DB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D771F0923819E2600403DB9 /* Card.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				1D771EF523819DD100403DB9 /* AppDelegate.swift in Sources */,
 				1D771EF723819DD100403DB9 /* SceneDelegate.swift in Sources */,
 				1D771EF923819DD100403DB9 /* ContentView.swift in Sources */,
+				1D771F0A23819E2600403DB9 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
